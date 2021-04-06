@@ -13,6 +13,8 @@ target 'cloneUber' do
   )
 
 
+  pod 'react-native-maps', :path => '../node_modules/react-native-maps'
+
   target 'cloneUberTests' do
     inherit! :complete
     # Pods for testing
