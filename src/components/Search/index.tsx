@@ -9,6 +9,7 @@ const Search: React.FC = () => {
     <GooglePlacesAutocomplete
       placeholder="Para onde?"
       onPress={(data, details) => {
+        // 'details' is provided when fetchDetails = true
         console.log(data, details);
       }}
       query={{

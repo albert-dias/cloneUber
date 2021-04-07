@@ -15,8 +15,8 @@ interface RegionProps {
 
 const Map: React.FC = () => {
   const [region, setRegion] = useState<RegionProps>({
-    latitude: -5.756007663197315,
-    longitude: -35.162054669414646,
+    latitude: -5.856007663197315,
+    longitude: -35.262054669414646,
     latitudeDelta: 0.01143,
     longitudeDelta: 0.0134,
   });
