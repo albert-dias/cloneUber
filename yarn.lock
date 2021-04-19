@@ -3296,7 +3296,7 @@ interpret@^1.0.0:
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.4.0.tgz#665ab8bc4da27a774a40584e812e3e0fa45b1a1e"
   integrity sha512-agE4QfB2Lkp9uICn7BAqoscw4SZP9kTE2hxiFI3jBPmXJfdqiahTbUuKGsMoN2GtqL9AxhYioAcVvgsb1HvRbA==
 
-invariant@^2.2.4:
+invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
@@ -5301,6 +5301,20 @@ react-native-maps@^0.27.1:
   version "0.27.1"
   resolved "https://registry.yarnpkg.com/react-native-maps/-/react-native-maps-0.27.1.tgz#2f10cd417bb2fd938c9e015b1c9b6d9b1a44b97f"
   integrity sha512-HygBkZBecTnIVRYrSiLRAvu4OmXOYso/A7c6Cy73HkOh9CgGV8Ap5eBea24tvmFGptjj5Hg8AJ94/YbmWK1Okw==
+
+react-native-onesignal@^4.0.6:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/react-native-onesignal/-/react-native-onesignal-4.0.6.tgz#e20dd164310113fc0fe9a97c8b70270d5cec6fcd"
+  integrity sha512-HHU7+sy7qMOyEeVkaCguOSTq9IbHYkloJLy/CUgiRIKvlUItyHRIwAb7mmaZk4ieVANTxbUzy9LKZvKAburLhw==
+  dependencies:
+    invariant "^2.2.2"
+
+react-native-places-input@^1.1.7:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/react-native-places-input/-/react-native-places-input-1.1.7.tgz#8e36fdd87e1f855d72029f7e2b670f7832a2872c"
+  integrity sha512-Gxl6bNFGK8vCagTRjONKspdgpGs+pGSu/Y3Bp7XZqFaowekhDdQYfs6yXe+WZofH/EmNzFH40jKc83URvqYPXQ==
+  dependencies:
+    prop-types "^15.7.2"
 
 react-native@0.64.0:
   version "0.64.0"
